@@ -6,7 +6,7 @@
   "main": "index.html",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d www",
     "🪐": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "🚀": "cross-env ELEVENTY_ENV=production eleventy",
     "dev": "run-s 🪐",
